@@ -11,8 +11,6 @@ public class Bank
 	  
 	  public static void main(String[] args) throws InterruptedException
 	  {
-		
-		//  System.out.println(LocalDateTime.now());
 	    @SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 	    int option = 0;
@@ -52,8 +50,6 @@ public class Bank
 	    System.out.println("Insert your ATM card");
 	    System.out.println("Enter your name ===>");
 	    name=sc.nextLine();
-	   
-	    
 	    while(true) 
 	    {
 	    System.out.println("******Please Enter your PIN number******");
@@ -61,13 +57,10 @@ public class Bank
 	    int[] al= {1234,2345,3456,4567};
 	    if((int)al[0]==pin || (int)al[1]==pin || (int)al[2]==pin || (int)al[3]==pin)
 	    {
-	    	System.out.println("welcome "+name);
-	    
-	    
-	    System.out.println(al);
+	    	System.out.println("/ / / / / /  welcome "+name+"/ / / / / /");	   
 	    while (option != 4) 
 	    {
-	      
+	      System.out.println("please choose a option");
 	      System.out.println("1. Check Balance");
 	      System.out.println("2. Deposit");
 	      System.out.println("3. Withdraw");
@@ -95,12 +88,9 @@ public class Bank
 	      }
 	    }
 	  }
-	    
 	    else
-	    {
-	    	
+	    {    	
 	    	System.out.println("please Enter a valid Pin number!!!!");
-	    	
 	    }
 	    }
 	  }
@@ -108,7 +98,6 @@ public class Bank
 	  {
 	    System.out.println(name+" Your current balance is $" + balance+"\n");
 	  }
-
 	  public static void deposit() 
 	  {
 	    Scanner sc = new Scanner(System.in);
@@ -118,7 +107,6 @@ public class Bank
 	    System.out.println("$" + amount + " has been deposited to your account.");
 	    checkBalance();
 	  }
-
 	  public static void withdraw() 
 	  {
 	    Scanner sc = new Scanner(System.in);
@@ -133,21 +121,9 @@ public class Bank
 	      System.out.println("$" + amount + " has been withdrawn from your account.");
 	    }
 	    checkBalance();
-	   
 	  }
-	  
-	  
-	  
-
 	  public static void exit() 
 	  {
 	    System.out.println("Thank you for banking with us "+name+". Have a great day!");
-	  }
-	
-	  
-	  
+	  }	  
 }
-	   
-	
-	
-
