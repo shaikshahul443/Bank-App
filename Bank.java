@@ -9,9 +9,9 @@ public class Bank
 		  static int pin =0;
 		  public static void main(String[] args) throws InterruptedException
 		  {
-			  	System.out.println("/ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /");
+			  	System.out.println("/ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / ");
 			    System.out.println("/ /                                                                         📶/ /");
-			    System.out.println("/ /           🏧 Welcome to the STATE BANK OF INDIA! 🏧             		      / /");
+			    System.out.println("/ /           🏧 Welcome to the STATE BANK OF INDIA! 🏧             	      / /");
 			    System.out.println("/ /                                                                           / /");
 			    System.out.println("/ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /");
 			    System.out.println("                                                          Date :"+ LocalDate.now());
